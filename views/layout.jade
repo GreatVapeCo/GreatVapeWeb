@@ -1,0 +1,476 @@
+doctype html
+html(lang='en')
+  head
+    //
+      Basic Page Needs
+      ==================================================
+    meta(charset='utf-8')
+    //if IE
+      meta(http-equiv='x-ua-compatible', content='IE=9')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    title GreatVape - Digital Agency One Page Template
+    meta(name='description', content='Spirit8 is a Digital agency one page template built based on bootstrap framework. This template is design by Robert Berki and coded by Jenn Pereira. It is simple, mobile responsive, perfect for portfolio and agency websites. Get this for free exclusively at ThemeForces.com')
+    meta(name='keywords', content='bootstrap theme, portfolio template, digital agency, onepage, mobile responsive, spirit8, free website, free theme, themeforces themes, themeforces wordpress themes, themeforces bootstrap theme')
+    meta(name='author', content='ThemeForces.com')
+    //
+      Favicons
+      ==================================================
+    link(rel='shortcut icon', href='img/favicon.ico', type='image/x-icon')
+    link(rel='apple-touch-icon', href='img/apple-touch-icon.png')
+    link(rel='apple-touch-icon', sizes='72x72', href='img/apple-touch-icon-72x72.png')
+    link(rel='apple-touch-icon', sizes='114x114', href='img/apple-touch-icon-114x114.png')
+    // Bootstrap
+    link(rel='stylesheet', type='text/css', href='css/bootstrap.css')
+    link(rel='stylesheet', type='text/css', href='fonts/font-awesome/css/font-awesome.css')
+    //
+      Slider
+      ==================================================
+    link(href='css/owl.carousel.css', rel='stylesheet', media='screen')
+    link(href='css/owl.theme.css', rel='stylesheet', media='screen')
+    //
+      Stylesheet
+      ==================================================
+    link(rel='stylesheet', type='text/css', href='css/style.css')
+    link(rel='stylesheet', type='text/css', href='css/responsive.css')
+    link(href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic', rel='stylesheet', type='text/css')
+    link(href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400', rel='stylesheet', type='text/css')
+    script(type='text/javascript', src='js/modernizr.custom.js')
+    // HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries
+    // WARNING: Respond.js doesn't work if you view the page via file://
+    //if lt IE 9
+      script(src='https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js')
+      script(src='https://oss.maxcdn.com/respond/1.4.2/respond.min.js')
+  body
+    //
+      Navigation
+      ==========================================
+    nav#tf-menu.navbar.navbar-default.navbar-fixed-top
+      .container
+        // Brand and toggle get grouped for better mobile display
+        .navbar-header
+          button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1')
+            span.sr-only Toggle navigation
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+          a.navbar-brand(href='index.jade') GreatVape
+        // Collect the nav links, forms, and other content for toggling
+        #bs-example-navbar-collapse-1.collapse.navbar-collapse
+          ul.nav.navbar-nav.navbar-right
+            li
+              a.page-scroll(href='#tf-home') Home
+            li
+              a.page-scroll(href='#tf-about') About
+            li
+              a.page-scroll(href='#tf-team') Team
+            li
+              a.page-scroll(href='#tf-services') Services
+            li
+              a.page-scroll(href='#tf-works') Portfolio
+            li
+              a.page-scroll(href='#tf-testimonials') Testimonials
+            li
+              a.page-scroll(href='#tf-contact') Contact
+        // /.navbar-collapse
+      // /.container-fluid
+    //
+      Home Page
+      ==========================================
+    #tf-home.text-center
+      .overlay
+        .content
+          h1
+            | Welcome on
+            strong
+              span.color GreatVape
+          p.lead
+            | We are a digital agency with
+            strong years of experience
+            |  and with
+            strong extraordinary people
+          a.fa.fa-angle-down.page-scroll(href='#tf-about')
+    //
+      About Us Page
+      ==========================================
+    #tf-about
+      .container
+        .row
+          .col-md-6
+            img.img-responsive(src='img/02.png')
+          .col-md-6
+            .about-text
+              .section-title
+                h4 About us
+                h2
+                  | Some words
+                  strong about us
+                hr
+                .clearfix
+              p.intro
+                | We love building and rebuilding brands through our  specific skills. Using colour, fonts, and illustration, we brand companies in a way they will never forget.
+              ul.about-list
+                li
+                  span.fa.fa-dot-circle-o
+                  strong Mission
+                  |  -
+                  em We deliver uniqueness and quality
+                li
+                  span.fa.fa-dot-circle-o
+                  strong Skills
+                  |  -
+                  em Delivering fast and excellent results
+                li
+                  span.fa.fa-dot-circle-o
+                  strong Clients
+                  |  -
+                  em Satisfied clients thanks to our experience
+    //
+      Team Page
+      ==========================================
+    #tf-team.text-center
+      .overlay
+        .container
+          .section-title.center
+            h2
+              | Meet
+              strong our team
+            .line
+              hr
+          #team.owl-carousel.owl-theme.row
+            .item
+              .thumbnail
+                img.img-circle.team-img(src='img/team/01.jpg', alt='...')
+                .caption
+                  h3 Jenn Gwapa
+                  p CEO / Founder
+                  p Do not seek to change what has come before. Seek to create that which has not.
+            .item
+              .thumbnail
+                img.img-circle.team-img(src='img/team/02.jpg', alt='...')
+                .caption
+                  h3 Jenn Gwapa
+                  p CEO / Founder
+                  p Do not seek to change what has come before. Seek to create that which has not.
+            .item
+              .thumbnail
+                img.img-circle.team-img(src='img/team/03.jpg', alt='...')
+                .caption
+                  h3 Jenn Gwapa
+                  p CEO / Founder
+                  p Do not seek to change what has come before. Seek to create that which has not.
+            .item
+              .thumbnail
+                img.img-circle.team-img(src='img/team/04.jpg', alt='...')
+                .caption
+                  h3 Jenn Gwapa
+                  p CEO / Founder
+                  p Do not seek to change what has come before. Seek to create that which has not.
+            .item
+              .thumbnail
+                img.img-circle.team-img(src='img/team/04.jpg', alt='...')
+                .caption
+                  h3 Jenn Gwapa
+                  p CEO / Founder
+                  p Do not seek to change what has come before. Seek to create that which has not.
+            .item
+              .thumbnail
+                img.img-circle.team-img(src='img/team/01.jpg', alt='...')
+                .caption
+                  h3 Jenn Gwapa
+                  p CEO / Founder
+                  p Do not seek to change what has come before. Seek to create that which has not.
+            .item
+              .thumbnail
+                img.img-circle.team-img(src='img/team/02.jpg', alt='...')
+                .caption
+                  h3 Jenn Gwapa
+                  p CEO / Founder
+                  p Do not seek to change what has come before. Seek to create that which has not.
+            .item
+              .thumbnail
+                img.img-circle.team-img(src='img/team/03.jpg', alt='...')
+                .caption
+                  h3 Jenn Gwapa
+                  p CEO / Founder
+                  p Do not seek to change what has come before. Seek to create that which has not.
+    //
+      Services Section
+      ==========================================
+    #tf-services.text-center
+      .container
+        .section-title.center
+          h2
+            | Take a look at
+            strong our services
+          .line
+            hr
+          .clearfix
+          small
+            em
+              | Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+        .space
+        .row
+          .col-md-3.col-sm-6.service
+            i.fa.fa-desktop
+            h4
+              strong Web design
+            p
+              | The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+          .col-md-3.col-sm-6.service
+            i.fa.fa-mobile
+            h4
+              strong Mobile Apps
+            p
+              | The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+          .col-md-3.col-sm-6.service
+            i.fa.fa-camera
+            h4
+              strong Photography
+            p
+              | The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+          .col-md-3.col-sm-6.service
+            i.fa.fa-bullhorn
+            h4
+              strong Marketing
+            p
+              | The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+    //
+      Clients Section
+      ==========================================
+    #tf-clients.text-center
+      .overlay
+        .container
+          .section-title.center
+            h2
+              | Some of
+              strong our Clients
+            .line
+              hr
+          #clients.owl-carousel.owl-theme
+            .item
+              img(src='img/client/01.png')
+            .item
+              img(src='img/client/02.png')
+            .item
+              img(src='img/client/03.png')
+            .item
+              img(src='img/client/04.png')
+            .item
+              img(src='img/client/05.png')
+            .item
+              img(src='img/client/06.png')
+            .item
+              img(src='img/client/07.png')
+    //
+      Portfolio Section
+      ==========================================
+    #tf-works
+      .container
+        // Container
+        .section-title.text-center.center
+          h2
+            | Take a look at
+            strong our services
+          .line
+            hr
+          .clearfix
+          small
+            em
+              | Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+        .space
+        .categories
+          ul.cat
+            li.pull-left
+              h4 Filter by Type:
+            li.pull-right
+              ol.type
+                li
+                  a.active(href='#', data-filter='*') All
+                li
+                  a(href='#', data-filter='.web') Web Design
+                li
+                  a(href='#', data-filter='.photography') Photography
+                li
+                  a(href='#', data-filter='.app') Mobile App
+                li
+                  a(href='#', data-filter='.branding') Branding
+          .clearfix
+        #lightbox.row
+          .col-sm-6.col-md-3.col-lg-3.branding
+            .portfolio-item
+              .hover-bg
+                a(href='#')
+                  .hover-text
+                    h4 Logo Design
+                    small Branding
+                    .clearfix
+                    i.fa.fa-plus
+                  img.img-responsive(src='img/portfolio/01.jpg', alt='...')
+          .col-sm-6.col-md-3.col-lg-3.photography.app
+            .portfolio-item
+              .hover-bg
+                a(href='#')
+                  .hover-text
+                    h4 Logo Design
+                    small Branding
+                    .clearfix
+                    i.fa.fa-plus
+                  img.img-responsive(src='img/portfolio/02.jpg', alt='...')
+          .col-sm-6.col-md-3.col-lg-3.branding
+            .portfolio-item
+              .hover-bg
+                a(href='#')
+                  .hover-text
+                    h4 Logo Design
+                    small Branding
+                    .clearfix
+                    i.fa.fa-plus
+                  img.img-responsive(src='img/portfolio/03.jpg', alt='...')
+          .col-sm-6.col-md-3.col-lg-3.branding
+            .portfolio-item
+              .hover-bg
+                a(href='#')
+                  .hover-text
+                    h4 Logo Design
+                    small Branding
+                    .clearfix
+                    i.fa.fa-plus
+                  img.img-responsive(src='img/portfolio/04.jpg', alt='...')
+          .col-sm-6.col-md-3.col-lg-3.web
+            .portfolio-item
+              .hover-bg
+                a(href='#')
+                  .hover-text
+                    h4 Logo Design
+                    small Branding
+                    .clearfix
+                    i.fa.fa-plus
+                  img.img-responsive(src='img/portfolio/05.jpg', alt='...')
+          .col-sm-6.col-md-3.col-lg-3.app
+            .portfolio-item
+              .hover-bg
+                a(href='#')
+                  .hover-text
+                    h4 Logo Design
+                    small Branding
+                    .clearfix
+                    i.fa.fa-plus
+                  img.img-responsive(src='img/portfolio/06.jpg', alt='...')
+          .col-sm-6.col-md-3.col-lg-3.photography.web
+            .portfolio-item
+              .hover-bg
+                a(href='#')
+                  .hover-text
+                    h4 Logo Design
+                    small Branding
+                    .clearfix
+                    i.fa.fa-plus
+                  img.img-responsive(src='img/portfolio/07.jpg', alt='...')
+          .col-sm-6.col-md-3.col-lg-3.web
+            .portfolio-item
+              .hover-bg
+                a(href='#')
+                  .hover-text
+                    h4 Logo Design
+                    small Branding
+                    .clearfix
+                    i.fa.fa-plus
+                  img.img-responsive(src='img/portfolio/08.jpg', alt='...')
+    //
+      Testimonials Section
+      ==========================================
+    #tf-testimonials.text-center
+      .overlay
+        .container
+          .section-title.center
+            h2
+              strong Our clients’
+              |  testimonials
+            .line
+              hr
+          .row
+            .col-md-8.col-md-offset-2
+              #testimonial.owl-carousel.owl-theme
+                .item
+                  h5
+                    | This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+                  p
+                    strong Dean Martin
+                    | , CEO Acme Inc.
+                .item
+                  h5
+                    | This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+                  p
+                    strong Dean Martin
+                    | , CEO Acme Inc.
+                .item
+                  h5
+                    | This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+                  p
+                    strong Dean Martin
+                    | , CEO Acme Inc.
+    //
+      Contact Section
+      ==========================================
+    #tf-contact.text-center
+      .container
+        .row
+          .col-md-8.col-md-offset-2
+            .section-title.center
+              h2
+                | Feel free to
+                strong contact us
+              .line
+                hr
+              .clearfix
+              small
+                em
+                  | Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+            form
+              .row
+                .col-md-6
+                  .form-group
+                    label(for='exampleInputEmail1') Email address
+                    input#exampleInputEmail1.form-control(type='email', placeholder='Enter email')
+                .col-md-6
+                  .form-group
+                    label(for='exampleInputPassword1') Password
+                    input#exampleInputPassword1.form-control(type='password', placeholder='Password')
+              .form-group
+                label(for='exampleInputEmail1') Message
+                textarea.form-control(rows='3')
+              button.btn.tf-btn.btn-default(type='submit') Submit
+    nav#footer
+      .container
+        .pull-left.fnav
+          p
+            | ALL RIGHTS RESERVED. COPYRIGHT © 2014. Designed by
+            a(href='https://dribbble.com/shots/1817781--FREEBIE-Spirit8-Digital-agency-one-page-template') Robert Berki
+            |  and Coded by
+            a(href='https://dribbble.com/jennpereira') Jenn Pereira
+        .pull-right.fnav
+          ul.footer-social
+            li
+              a(href='#')
+                i.fa.fa-facebook
+            li
+              a(href='#')
+                i.fa.fa-dribbble
+            li
+              a(href='#')
+                i.fa.fa-google-plus
+            li
+              a(href='#')
+                i.fa.fa-twitter
+    // jQuery (necessary for Bootstrap's JavaScript plugins)
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js')
+    script(type='text/javascript', src='js/jquery.1.11.1.js')
+    // Include all compiled plugins (below), or include individual files as needed
+    script(type='text/javascript', src='js/bootstrap.js')
+    script(type='text/javascript', src='js/SmoothScroll.js')
+    script(type='text/javascript', src='js/jquery.isotope.js')
+    script(src='js/owl.carousel.js')
+    //
+      Javascripts
+      ==================================================
+    script(type='text/javascript', src='js/main.js')
