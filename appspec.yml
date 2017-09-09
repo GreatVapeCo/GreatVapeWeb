@@ -1,9 +1,9 @@
 
  version: 0.0
  os: linux
- #files:
- #  - source: /views/index.jade
- #    destination: /var/www/html/
+ files:
+   - source: ~/
+     destination: /GreatVapeCo/
  hooks:
    BeforeInstall:
      - location: scripts/install_dependencies
