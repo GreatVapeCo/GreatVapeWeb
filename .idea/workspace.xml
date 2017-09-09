@@ -4,7 +4,6 @@
     <list default="true" id="a4f017f6-ca14-4e59-9e7a-74a2b39dfbbf" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appspec.yml" afterPath="$PROJECT_DIR$/appspec.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/buildspec.yml" afterPath="$PROJECT_DIR$/buildspec.yml" />
     </list>
     <ignored path="GreatVape.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,7 +35,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="buildspec.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="buildspec.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/buildspec.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
@@ -46,11 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="appspec.yml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="appspec.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/appspec.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+            <state relative-caret-position="60">
+              <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -102,8 +101,8 @@
         <option value="$PROJECT_DIR$/scripts/start_server" />
         <option value="$PROJECT_DIR$/scripts/install_dependencies" />
         <option value="$PROJECT_DIR$/scripts/stop_server" />
-        <option value="$PROJECT_DIR$/appspec.yml" />
         <option value="$PROJECT_DIR$/buildspec.yml" />
+        <option value="$PROJECT_DIR$/appspec.yml" />
       </list>
     </option>
   </component>
@@ -846,7 +845,7 @@
       <workItem from="1465828363440" duration="1743000" />
       <workItem from="1476925148513" duration="7000" />
       <workItem from="1504871137032" duration="186000" />
-      <workItem from="1504871336047" duration="9465000" />
+      <workItem from="1504871336047" duration="9499000" />
     </task>
     <task id="LOCAL-00001" summary="Init Commit">
       <created>1460561892582</created>
@@ -904,11 +903,18 @@
       <option name="project" value="LOCAL" />
       <updated>1504920499746</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Changed buildspec files">
+      <created>1504921179454</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1504921179454</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20081000" />
+    <option name="totallyTimeSpent" value="20115000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="55" width="1908" height="980" extended-state="0" />
@@ -967,7 +973,8 @@
     <MESSAGE value="Added yml file for CodeBuild" />
     <MESSAGE value="Updated yml for building" />
     <MESSAGE value="Added appspec for code deploy" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added appspec for code deploy" />
+    <MESSAGE value="Changed buildspec files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed buildspec files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1327,18 +1334,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/appspec.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/buildspec.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="7" lean-forward="false" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appspec.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           <folding />
         </state>
       </provider>
