@@ -55,8 +55,12 @@
 
 /* mouse grab icon */
 .grabbing { 
-    cursor:url(grabbing.png) 8 8, move;
+    /*cursor:url(grabbing.png) 8 8, move;*/
+	cursor: -webkit-grab; cursor:-moz-grab;
 }
+
+#eA { cursor: -webkit-grab; cursor:-moz-grab; }
+#eA:active { cursor: -webkit-grabbing; cursor:-moz-grabbing;}
 
 /* fix */
 .owl-carousel  .owl-wrapper,
