@@ -1,4 +1,5 @@
-<!--extends layout--><!DOCTYPE html>
+<!--extends layout-->
+<!DOCTYPE html>
 <html ng-app="myApp">
 <head>
     <!--
@@ -17,10 +18,7 @@
     Favicons
     ==================================================
     -->
-    <link rel="shortcut icon" href="img/logo_V_icon_256.png" type="image/x-icon">
-    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+    <link rel="shortcut icon" href="/public/img/logo_V_icon_256.png" type="image/x-icon">
     <!-- Bootstrap-->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
@@ -40,11 +38,13 @@
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400" rel="stylesheet" type="text/css">
     <script type="text/javascript" src="js/modernizer/modernizr.custom.js"></script>
     <script src="js/angular/angular.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries-->
     <!-- WARNING: Respond.js doesn't work if you view the page via file://-->
     <!--if lt IE 9
     script(src='https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js')
     script(src='https://oss.maxcdn.com/respond/1.4.2/respond.min.js')
+
     -->
 </head>
 <body>
@@ -52,6 +52,8 @@
 Navigation
 ==========================================
 -->
+
+
 <nav class="navbar navbar-default navbar-fixed-top" id="tf-menu">
     <div class="container">
         <!-- Brand and toggle get grouped for better mobile display-->
@@ -252,7 +254,7 @@ Testimonials Section
 <div class="text-center" id="tf-location">
     <div class="overlay">
         <div class="container"></div>
-        <iframe src="//www.google.com/maps/embed/v1/place?q=Great Vape&key=AIzaSyDfxnULq0QsD7kNjrYuvV6vlcUZo_W-THc&zoom=17">
+        <iframe src="//www.google.com/maps/embed/v1/place?q=Great Vape, Galena Street&key=AIzaSyDfxnULq0QsD7kNjrYuvV6vlcUZo_W-THc&zoom=17">
             <div class="section-title center">
                 <h2><strong>Our clients’</strong> testimonials</h2>
                 <div class="line">
@@ -319,6 +321,7 @@ Contact Section
         </div>
     </div>
 </nav>
+
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins)-->
 <script src="js/jquery/jquery-3.0.0.min.js"></script>
 <script type="text/javascript" src="js/jquery/jquery.1.11.1.js"></script>
