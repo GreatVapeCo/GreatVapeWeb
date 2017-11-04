@@ -7,8 +7,6 @@ npm install forever -g
 
 <h5>Locals</h5>
 npm install         <br>
-npm install dotenv  <br>
-npm install ejs     <br>
 <br>
 
 <p><b>Start server: </b>forever start app.js</p> 
