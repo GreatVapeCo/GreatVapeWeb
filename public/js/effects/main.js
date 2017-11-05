@@ -61,7 +61,7 @@ function main() {
                 navigation: false, // Show next and prev buttons
                 slideSpeed: 300,
                 paginationSpeed: 400,
-                autoHeight: true,
+                autoHeight: false,
                 itemsCustom: [
                     [0, 1],
                     [450, 2],
@@ -72,6 +72,8 @@ function main() {
                     [1400, 4],
                     [1600, 4]
                 ],
+                itemWidth: 250,
+                autoPlay: true
             });
 
             $("#hardware").owlCarousel({
@@ -79,17 +81,38 @@ function main() {
                 navigation: false, // Show next and prev buttons
                 slideSpeed: 300,
                 paginationSpeed: 400,
-                autoHeight: true,
+                autoHeight: false,
                 itemsCustom: [
                     [0, 1],
                     [450, 2],
                     [600, 2],
                     [700, 2],
                     [1000, 4],
-                    [1200, 5],
-                    [1400, 5],
-                    [1600, 5]
+                    [1200, 4],
+                    [1400, 4],
+                    [1600, 4]
                 ],
+                itemWidth: 250
+            });
+
+            $("#accessories").owlCarousel({
+
+                navigation: false, // Show next and prev buttons
+                slideSpeed: 300,
+                paginationSpeed: 400,
+                autoHeight: false,
+                itemsCustom: [
+                    [0, 1],
+                    [450, 2],
+                    [600, 2],
+                    [700, 2],
+                    [1000, 4],
+                    [1200, 4],
+                    [1400, 4],
+                    [1600, 4]
+                ],
+                itemWidth: 250,
+                autoPlay: true
             });
 
             $("#partners").owlCarousel({

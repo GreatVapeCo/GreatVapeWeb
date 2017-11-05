@@ -343,6 +343,11 @@ if (typeof Object.create !== "function") {
         calculateWidth : function () {
             var base = this;
             base.itemWidth = Math.round(base.$elem.width() / base.options.items);
+
+            if(base.options.itemWidth !== -1){
+                base.itemWidth = base.options.itemWidth;
+            }
+            //console.log(base.itemWidth)
         },
 
         max : function () {
@@ -1507,6 +1512,8 @@ if (typeof Object.create !== "function") {
         afterMove : false,
         afterAction : false,
         startDragging : false,
-        afterLazyLoad: false
+        afterLazyLoad: false,
+
+        itemWidth: -1
     };
 }(jQuery, window, document));

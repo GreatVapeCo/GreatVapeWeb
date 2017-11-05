@@ -11,3 +11,5 @@ npm install         <br>
 
 <p><b>Start server: </b>forever start app.js</p> 
 <p><b>Stop server: </b>forever stop app.js</p> 
+
+<p><b>Connect: </b>ssh -i GreatVapeWeb.pem ubuntu@13.59.74.25
