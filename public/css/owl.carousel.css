@@ -39,6 +39,7 @@
 	
 .owl-carousel .owl-item{
 	float: left;
+	margin: 0 10px 0;
 }
 .owl-controls .owl-page,
 .owl-controls .owl-buttons div{
@@ -71,5 +72,7 @@
   -webkit-transform: translate3d(0,0,0);
   -moz-transform: translate3d(0,0,0);
   -ms-transform: translate3d(0,0,0);
+	margin: 0 10px 0;
+
 }
 

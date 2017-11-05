@@ -44,6 +44,24 @@ function main() {
                 slideSpeed: 300,
                 paginationSpeed: 400,
                 autoHeight: true,
+                itemsCustom: [  //[Screen Size, items to show]
+                    [0, 1],
+                    [450, 2],
+                    [600, 2],
+                    [700, 2],
+                    [1000, 2],
+                    [1200, 2],
+                    [1400, 2],
+                    [1600, 2]
+                ],
+            });
+
+            $("#juices").owlCarousel({
+
+                navigation: false, // Show next and prev buttons
+                slideSpeed: 300,
+                paginationSpeed: 400,
+                autoHeight: true,
                 itemsCustom: [
                     [0, 1],
                     [450, 2],
