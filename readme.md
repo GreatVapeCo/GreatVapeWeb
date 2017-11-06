@@ -1,15 +1,32 @@
 <h3>Startup commands</h3>
 <hr>
 
-<h5>Globals (sudo)</h5>
-npm install forever -g
-<br><br>
 
 <h5>Locals</h5>
 npm install         <br>
 <br>
 
-<p><b>Start server: </b>forever start app.js</p> 
-<p><b>Stop server: </b>forever stop app.js</p> 
 
-<p><b>Connect: </b>ssh -i GreatVapeWeb.pem ubuntu@13.59.74.25
+<b>START: </b>
+
+nohup node ./bin/www &
+
+-or-
+
+node ./bin/www
+
+
+####Port Redirect
+
+#####localhost/loopback
+
+sudo iptables -t nat -I OUTPUT -p tcp -d 127.0.0.1 --dport 80 -j REDIRECT --to-ports 3000
+
+##### external
+sudo iptables -t nat -I PREROUTING -p tcp --dport 80 -j REDIRECT --to-ports 3000
+
+
+
+<p><b>SSH Connect: </b>ssh -i GreatVapeWeb.pem ubuntu@18.216.110.119
+
+
