@@ -651,7 +651,7 @@ iframe {
 
 /* Clients Section */
 #tf-clients {
-    background: url(../img/04.jpg);
+    background: url(../img/banner/great_vape.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -829,8 +829,6 @@ ol.type li a.active {
     border-radius: 50%;
     color: var(--darkgreen);
 }
-
-
 
 
 .hover-item {
