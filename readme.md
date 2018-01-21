@@ -16,18 +16,20 @@ nohup node ./bin/www &
 node ./bin/www
 
 
-####Port Redirect
+####Start-up script
 
-#####localhost/loopback
+ 
+{ # 'try' block
+    forever stop bin/www
+} || { # 'catch' block
+    echo "Forever server not running"
+}
 
-sudo iptables -t nat -I OUTPUT -p tcp -d 127.0.0.1 --dport 80 -j REDIRECT --to-ports 3000
 
-##### external
-sudo iptables -t nat -I PREROUTING -p tcp --dport 80 -j REDIRECT --to-ports 3000
+npm install
+BUILD_ID=dontKillMe
+forever start -o out.log -e err.log bin/www
 
+####SSH
 
-
-<p><b>SSH Connect: </b>ssh -i GreatVapeWeb.pem ubuntu@18.216.110.119
-
-TODO: https://hackernoon.com/tutorial-creating-and-managing-a-node-js-server-on-aws-part-2-5fbdea95f8a1
-232
+<p><b>SSH Connect: </b>ssh -i GreatVapeWeb1.pem ubuntu@52.14.137.31
