@@ -30,3 +30,4 @@ sudo iptables -t nat -I PREROUTING -p tcp --dport 80 -j REDIRECT --to-ports 3000
 <p><b>SSH Connect: </b>ssh -i GreatVapeWeb.pem ubuntu@18.216.110.119
 
 TODO: https://hackernoon.com/tutorial-creating-and-managing-a-node-js-server-on-aws-part-2-5fbdea95f8a1
+23
