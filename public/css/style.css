@@ -266,8 +266,7 @@ a.fa.fa-angle-down:hover {
 
 /* Juices Section */
 #tf-juices {
-    /*padding: 20px 0 40px 0;*/
-    padding: 80px 0;
+    padding: 40px 0;
 }
 
 #tf-juices i.fa {
@@ -298,6 +297,8 @@ a.fa.fa-angle-down:hover {
 
 .juice_img {
     height: 250px;
+    width: 250px;
+    border-radius: 25px;
 }
 
 /*
@@ -318,10 +319,11 @@ a.fa.fa-angle-down:hover {
 .hardware_img {
     height: 250px;
     width: 250px;
+    border-radius: 25px;
 }
 
 #tf-hardware {
-    background: url(../img/04.jpg);
+    background: url(../img/banner/great_vape.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -354,7 +356,7 @@ a.fa.fa-angle-down:hover {
 
 /* Accessories Section */
 #tf-accessories {
-    padding: 80px 0;
+    padding: 40px 0;
 }
 
 #tf-accessories i.fa {
@@ -380,7 +382,7 @@ a.fa.fa-angle-down:hover {
 
 /* Partners Section */
 #tf-partners {
-    background: url(../img/04.jpg);
+    background: url(../img/banner/great_vape.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -409,6 +411,7 @@ a.fa.fa-angle-down:hover {
     background-repeat: no-repeat;
     color: #6a6a6a;
     text-align: center;
+    display: none;
 }
 
 #tf-about .overlay {
@@ -480,6 +483,7 @@ img.img-circle.team-img {
 
 /* Contact Section */
 #tf-contact {
+    display: none;
     padding: 80px 0;
 }
 
@@ -832,7 +836,8 @@ ol.type li a.active {
 
 
 .hover-item {
-    background: #0fc309;
+    background: #bec0c3;
+    border-radius: 25px;
 }
 
 .overlay {

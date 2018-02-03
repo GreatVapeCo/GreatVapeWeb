@@ -80,7 +80,7 @@ function main() {
 
                 navigation: false, // Show next and prev buttons
                 slideSpeed: 300,
-                paginationSpeed: 400,
+                paginationSpeed: 200,
                 autoHeight: false,
                 itemsCustom: [
                     [0, 1],
@@ -92,14 +92,15 @@ function main() {
                     [1400, 4],
                     [1600, 4]
                 ],
-                itemWidth: 250
+                itemWidth: 250,
+                autoPlay: true
             });
 
             $("#accessories").owlCarousel({
 
                 navigation: false, // Show next and prev buttons
                 slideSpeed: 300,
-                paginationSpeed: 400,
+                paginationSpeed: 600,
                 autoHeight: false,
                 itemsCustom: [
                     [0, 1],
