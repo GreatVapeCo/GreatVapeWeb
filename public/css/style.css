@@ -266,7 +266,14 @@ a.fa.fa-angle-down:hover {
 
 /* Juices Section */
 #tf-juices {
+    background: url(../img/banner/great_vape_gray.jpg);
     padding: 40px 0;
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #cfcfcf;
 }
 
 #tf-juices i.fa {
@@ -356,7 +363,12 @@ a.fa.fa-angle-down:hover {
 
 /* Accessories Section */
 #tf-accessories {
-    padding: 40px 0;
+    background: url(../img/banner/great_vape_gray.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #cfcfcf;
 }
 
 #tf-accessories i.fa {
@@ -551,7 +563,7 @@ button.btn.tf-btn.btn-default {
 nav#footer {
     background: #222222;
     color: #ffffff;
-    padding: 20px 0 15px 0;
+    padding: 10px 0 5px 0;
 }
 
 nav#footer .fnav {
